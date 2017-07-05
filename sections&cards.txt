@@ -1,0 +1,18 @@
+.section
+    > section-reviews .background-dark
+        > .section-header
+            > .container
+                p.section-description
+                span.name
+                span.position
+
+        > .section-background-img
+
+.section
+    > section-details .background-light
+        > .section-header
+            > .container
+                h2.section-title
+                p.section-description
+
+        > .section-background-img
