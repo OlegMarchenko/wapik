@@ -65,9 +65,10 @@ span {
 }
 
 .container {
-    width: 75%;
+    max-width: 1095px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 20px;
 }
 .section {
     padding: 75px 0;
@@ -195,7 +196,6 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: calc(100vh - 99px);
 }
 
@@ -211,7 +211,7 @@ span {
 }
 
 .description {
-    width: 45%;
+    max-width: 507px;
 }
 
 .btn {
@@ -224,15 +224,90 @@ span {
 }
 .main-section-btn {
     font-size: 14px;
+    background-color: #6fb048;
 }
 .main-section-btn:hover {
     background-color: #84a8a6;
 }
-.green-btn {
-    background-color: #70b147;
+
+/*STYLES FOR SECTION HEADING*/
+.section-heading {
+    text-align: center;
 }
-.grey-btn {
-    background-color: #84a8a6;
+.section-heading h2 {
+    font: 32px/1 'robotolight';
+    color: #0f5f5c;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 19px;
+}
+.section-heading h2::before {
+    content: '';
+    position: absolute;
+    background-color: #6fb048;
+    width: 65px;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.section-heading p {
+    color: #83a7a5;
+    font-size: 15px;
+    display: block;
+    max-width: 451px;
+    margin: 0 auto;
+}
+
+/* END STYLES FOR SECTION HEADING*/
+
+/*BEGIN CARD STYLES*/
+
+.card {}
+.card-features {
+    text-align: center;
+    padding: 43px 0 32px 0;
+}
+.card-image {
+    padding-bottom: 18px;
+}
+.card-image {
+    color: #70b147;
+}
+.icon-1 {
+    font-size: 50px;
+}
+.icon-2,
+.icon-3 {
+    font-size: 56px;
+}
+.card-description h3 {
+    font-size: 16px;
+    color: #0f5f5c;
+}
+.card-description p {
+    font-size: 14px;
+    color: #83a7a5;
+}
+.list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -34px;
+    margin-left: -34px;
+}
+.list > li {
+    padding: 20px 34px;
+    width: 33.33%;
+}
+@media screen and (max-width: 1200px) {
+    .list > li {
+        width: 50%;
+    }
+    .list > li:last-child {
+        width: 100%;
+    }
 }
 
 
