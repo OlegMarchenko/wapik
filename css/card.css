@@ -91,5 +91,27 @@
     color: #83a7a5;
     display: block;
 }
+@media (max-width: 768px) {
+    .section-template .section-content {
+        flex-direction: column-reverse;
+    }
+    .section-content .card-description {
+        width: 100%;
+    }
+    .section-content .card-content-image {
+        align-self: center;
+        order: 1;
+    }
+    .name-group {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondary-section-inverse {
+        padding: 50px 0;
+    }
+}
+
 
 

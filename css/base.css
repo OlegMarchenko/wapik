@@ -14,9 +14,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-* {
-    transition: .2s all;
-}
 a {
     color: #fff;
     font-family: 'montserratregular';
@@ -61,15 +58,16 @@ span {
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
+    width: 100%;
 }
-span {
-    color: #0f5f5c;
-}
+
 h2 {
-    font: 32px/1 'robotolight';
+    font: 32px/1.2 'robotolight';
     color: #0f5f5c;
 }
 p {
     font-size: 14px;
 }
-
+ul {
+    padding-left: 0;
+}
