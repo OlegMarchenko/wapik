@@ -362,3 +362,40 @@ footer .section {
     justify-content: space-between;
     align-items: center;
 }
+
+/* pricing */
+
+.main-pricing {
+    background-image: none;
+}
+.main-wrapper-pricing .section-overlay::before {
+    background-color: #eef1ec;
+}
+.main-wrapper-pricing .main-section::after {
+    background-image: none;
+}
+.main-wrapper-pricing .navbar-nav a {
+    color: #83a7a5;
+}
+.main-wrapper-pricing .navbar-logo {
+    color: #0f5f5c;
+}
+.main-wrapper-pricing .navbar-nav > li > .navbar-btn {
+    background-color: #70b147;
+    color: #fff;
+}
+.main-wrapper-pricing .navbar-nav > li:hover a {
+    color: #fff;
+}
+.main-wrapper-pricing .navbar .tel {
+    color: #83a7a5;
+    background: url(../img/vector-smart-object2.png) 0 50% no-repeat;
+}
+.main-wrapper-pricing .navbar-logo::before {
+    background-color: #83a7a5;
+}
+.main-wrapper-pricing .section-body h1 {
+    max-width: 526px;
+    color: #0f5f5c;
+    font-size: 32px;
+}
