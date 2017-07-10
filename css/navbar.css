@@ -10,7 +10,7 @@
 .navbar::after {
     position: absolute;
     content: '';
-    width: 75%;
+    width: 1055px;
     height: 1px;
     background-color: #fff;
     opacity: 0.2;
@@ -70,4 +70,8 @@
     background: url("../img/vector-smart-object.png") 0 50% no-repeat;
     font-size: 13px;
     text-transform: uppercase;
+}
+.navbar-nav > li > .navbar-btn {
+    background-color: #6a7f7f;
+    opacity: 1;
 }

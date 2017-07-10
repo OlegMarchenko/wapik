@@ -112,6 +112,59 @@
         padding: 50px 0;
     }
 }
-
+.pricing-holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 75px;
+}
+.card-price {
+    text-align: center;
+    padding: 29px 55px 31px;
+    border: 1px solid #c2d4d3;
+}
+.card-price .price-title {
+    text-transform: uppercase;
+    font-family: 'robotomedium';
+    font-size: 15px;
+    color: #6fb048;
+    padding-bottom: 22px;
+}
+.price-value {
+    padding-bottom: 20px;
+}
+.price-value p {
+    font-size: 65px;
+    font-family: 'montserratregular';
+    color: #0f5f5c;
+    margin: 0;
+    line-height: 1;
+}
+.price-value span {
+    font-family: 'robotoregular';
+    color: #0f5f5c;
+    font-size: 14px;
+}
+.card-price .price-description {
+    font-size: 14px;
+}
+.card-price .price-description a {
+    background-color: #84a8a6;
+    padding: 15px 26px;
+}
+.card-price .price-description .premium-btn {
+    background-color: #70b147;
+}
+.card-list .card-description {
+    width: 33.33%;
+    display: inline-block;
+}
+.card-list li {
+    display: block;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
