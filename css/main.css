@@ -398,4 +398,36 @@ footer .section {
     max-width: 526px;
     color: #0f5f5c;
     font-size: 32px;
+    text-align: center;
+}
+.holder-section-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.holder-section-body .description {
+    text-align: center;
+    width: 100%;
+    max-width: none;
+}
+.main-wrapper-pricing .section-body p {
+    color: #0f5f5c;
+    opacity: 1;
+}
+.main-wrapper-pricing .card-price {
+    background-color: #fff;
+}
+.main-wrapper-pricing .pricing-holder {
+    padding-bottom: 25px;
+}
+.limited {
+    text-align: center;
+}
+.main-wrapper-pricing .navbar::after {
+    background-color: #0f5f5c;;
+}
+.main-wrapper-pricing .plans-heading {
+    padding-top: 80px;
 }
