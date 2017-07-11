@@ -431,3 +431,52 @@ footer .section {
 .main-wrapper-pricing .plans-heading {
     padding-top: 80px;
 }
+.main-wrapper-about-us .main-section {
+    background-image: url(../img/main-bg-about-us.jpg);
+}
+.main-wrapper-about-us .section-overlay::before {
+    background-color: #2d6e70;
+    opacity: 0.7;
+}
+.main-wrapper-about-us .section-body h1 {
+    max-width: 816px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'robotolight';
+}
+.head-btn {
+    width: 100%;
+    text-align: center;
+}
+.head-btn .btn {
+    padding: 19px 28px;
+}
+.main-wrapper-about-us .section-heading p {
+    max-width: 716px;
+}
+.main-wrapper-about-us .download-section::before {
+    background-color: rgba(111, 176, 72, 0.95);
+}
+.main-wrapper-about-us .download-section h2,
+.main-wrapper-about-us .download-section p {
+    color: #fff;
+}
+.main-wrapper-about-us .download-section .dl-btn {
+    background-color: #49732f;
+}
+.main-wrapper-about-us .section-template {
+    padding-bottom: 90px;
+}
+.team-list .card-name {
+    font-family: 'robotomedium';
+    font-size: 15px;
+    color: #0f5f5c;
+}
+.team-list .card-profession {
+    font-family: 'robotoregular';
+    font-size: 14px;
+    color: #83a7a5;
+}
+.team-list .card-body {
+    padding: 17px 0;
+}
