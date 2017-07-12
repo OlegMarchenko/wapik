@@ -34,6 +34,13 @@
     font-size: 56px;
 }
 
+.card-feature .card-title span,
+.card-feature-secondary span{
+    color: #0f5f5c;
+}
+
+.card-feature-secondary span
+
 .card-feature .card-description {
     font-size: 14px;
 }
@@ -59,17 +66,6 @@
 }
 .col-1 {
     width: 100%;
-}
-@media (max-width: 768px) {
-    .col-2-sm {
-        width: 50%;
-    }
-    .row {
-        justify-content: center;
-    }
-    .decoration {
-        display: none;
-    }
 }
 
 /* card-feature-secondary */
