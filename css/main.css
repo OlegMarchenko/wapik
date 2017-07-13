@@ -818,5 +818,10 @@ footer .section {
     }
 }
 
+@media (max-width: 480px) {
+    .social-links  a {
+        font-size: 14px;
+    }
+}
 
 
