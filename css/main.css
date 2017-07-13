@@ -771,4 +771,52 @@ footer .section {
     .main-wrapper-pricing .section h1 {
         font-size: 25px;
     }
+    /* toggler */
+
+    .navbar-toggler {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 48px;
+        overflow: hidden;
+        font-size: 13px;
+        color: #ccc;
+        padding: 16px 0;
+        margin-right: 5px;
+    }
+
+    .navbar-collapse {
+        display: inline-block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse ul {
+        margin: 24px 0 0 0;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse li {
+        float: none;
+        width: 200px;
+    }
+
+    .navbar-nav {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        background: rgba(29, 33, 38, 0.9);
+    }
+    .navbar-nav > li > a {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .navbar {
+        padding: 5px 0;
+    }
 }
+
+
+
