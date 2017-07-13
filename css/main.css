@@ -787,6 +787,11 @@ footer .section {
         margin-right: 5px;
     }
 
+    .main-wrapper-pricing .navbar-toggler,
+    .section-contact .navbar-toggler {
+        color: #0f5f5c;
+    }
+
     .navbar-collapse {
         display: inline-block;
         width: 100%;
